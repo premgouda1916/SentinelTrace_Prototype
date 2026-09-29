@@ -1,0 +1,13 @@
+{
+  "mappings": {
+    "properties": {
+      "actor_id": {"type":"keyword"},
+      "signal_type": {"type":"keyword"},
+      "source": {"type":"keyword"},
+      "observed_at": {"type":"date"},
+      "description": {"type":"text"},
+      "reliability": {"type":"float"},
+      "confidence": {"type":"float"}
+    }
+  }
+}
