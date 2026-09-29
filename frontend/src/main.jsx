@@ -3,7 +3,7 @@ import {createRoot} from 'react-dom/client';
 import * as d3 from 'd3';
 import './styles.css';
 
-const API = import.meta.env.VITE_API_URL || 'http://127.0.0.1:8000';
+const API = import.meta.env.VITE_API_URL || '';
 
 function Graph({data, selected}) {
   const ref = React.useRef(null);
